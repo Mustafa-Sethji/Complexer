@@ -29,25 +29,25 @@ Everything is computed with rule-based static analysis. The same input always gi
 
 Pick a template (here, Disjoint Set Union) or paste your own code, then press **Analyze Complexity** or `Cmd/Ctrl + Enter`.
 
-![Ready to analyze](images/Screenshot_2026-10-25_at_3_05_42_PM.png)
+![Ready to analyze](images/screenshot-ready.png)
 
 ### Result with recurrence analysis
 
 Time and auxiliary space badges, the recurrence that was detected, the method that solved it, and a line-by-line trace.
 
-![DSU analysis result](images/Screenshot_2026-10-25_at_3_05_50_PM.png)
+![DSU analysis result](images/screenshot-dsu.png)
 
 ### Pseudocode mode: linear queue
 
 Pseudocode mode has its own strict grammar, shown right below the editor. The trace lists the rule applied at every line.
 
-![Queue pseudocode analysis](images/Screenshot_2026-10-25_at_3_06_21_PM.png)
+![Queue pseudocode analysis](images/screenshot-queue.png)
 
 ### Pseudocode mode: tree recursion
 
 Recursive functions get a recurrence breakdown, and the space result reflects call-stack depth (`O(h)` for tree height).
 
-![Binary tree traversal analysis](images/Screenshot_2026-10-25_at_3_06_33_PM.png)
+![Binary tree traversal analysis](images/screenshot-tree.png)
 
 ---
 
