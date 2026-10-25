@@ -1,0 +1,24 @@
+{
+  "name": "complexity-analyzer",
+  "version": "1.0.0",
+  "description": "Deterministic rule-based asymptotic time and auxiliary space complexity analyzer (Big-O)",
+  "scripts": {
+    "start": "node scripts/dev.js",
+    "dev": "node scripts/dev.js",
+    "setup": "cd backend && npm install && cd ../frontend && npm install",
+    "test": "cd backend && npm test",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "complexity-analyzer",
+    "big-o",
+    "static-analysis",
+    "recurrence-solver",
+    "master-theorem",
+    "tree-sitter"
+  ],
+  "author": "",
+  "license": "MIT"
+}
